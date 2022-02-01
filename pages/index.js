@@ -6,6 +6,7 @@ import styled from 'styled-components';
 const Demo = styled.div`
   background: red;
   width: 200px;
+  height: 200px;
 `;
 
 export default function Home() {
