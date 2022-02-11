@@ -4,65 +4,107 @@ import {
   SkillContainer,
   SkillDevelopment,
   SkillDesign,
+  SkillBlock,
+  SkillHeading,
+  SkillBlockText,
 } from './style';
 import Image from 'next/image';
 
 function Skill() {
   return (
     <SkillSection>
-      <h2>Skill</h2>
+      <SkillHeading>
+        <h2>Skill</h2>
+      </SkillHeading>
       <SkillContainer>
         <SkillDevelopment>
-          <Image
-            alt='logo'
-            src='/images/profilepic.JPG'
-            height={220}
-            width={200}
-          ></Image>
-          <Image
-            alt='css logo'
-            src='/public/images/css.png'
-            height={100}
-            width={100}
-          ></Image>
-          <Image
-            alt='javascript logo'
-            src='/public/images/javascript.svg'
-            height={100}
-            width={100}
-          ></Image>
-          <Image
-            alt='wordpress logo'
-            src='/public/images/wordpress.png'
-            height={100}
-            width={100}
-          ></Image>
-          <Image
-            alt='boostrap logo'
-            src='/public/images/bootstrap.svg'
-            height={100}
-            width={100}
-          ></Image>
-          <Image
-            alt='react logo'
-            src='/public/images/react.svg'
-            height={100}
-            width={100}
-          ></Image>
+          <SkillBlock>
+            <h3>Development</h3>
+          </SkillBlock>
+          <SkillBlock>
+            <Image
+              alt='html logo'
+              src='/images/hmtl.png'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>HTML5</SkillBlockText>
+          </SkillBlock>
+
+          <SkillBlock>
+            <Image
+              alt='css logo'
+              src='/images/css.png'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>CSS3</SkillBlockText>
+          </SkillBlock>
+
+          <SkillBlock>
+            <Image
+              alt='javascript logo'
+              src='/images/javascript.svg'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>Javascript</SkillBlockText>
+          </SkillBlock>
+
+          <SkillBlock>
+            <Image
+              alt='wordpress logo'
+              src='/images/wordpress.png'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>Wordpress</SkillBlockText>
+          </SkillBlock>
+
+          <SkillBlock>
+            <Image
+              alt='boostrap logo'
+              src='/images/bootstrap.svg'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>Boostrap</SkillBlockText>
+          </SkillBlock>
+
+          <SkillBlock>
+            <Image
+              alt='react logo'
+              src='/images/react.svg'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>React</SkillBlockText>
+          </SkillBlock>
         </SkillDevelopment>
+
         <SkillDesign>
-          <Image
-            alt='figma logo'
-            src='/public/images/figma.svg'
-            height={100}
-            width={100}
-          ></Image>
-          <Image
-            alt='adobe xd logo'
-            src='/public/images/adobexd.svg'
-            height={100}
-            width={100}
-          ></Image>
+          <SkillBlock>
+            <h3>Design</h3>
+          </SkillBlock>
+          <SkillBlock>
+            <Image
+              alt='figma logo'
+              src='/images/figma.svg'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>Figma</SkillBlockText>
+          </SkillBlock>
+
+          <SkillBlock>
+            <Image
+              alt='adobe xd logo'
+              src='/images/adobexd.svg'
+              height={50}
+              width={50}
+            ></Image>
+            <SkillBlockText>Adobe XS</SkillBlockText>
+          </SkillBlock>
         </SkillDesign>
       </SkillContainer>
     </SkillSection>

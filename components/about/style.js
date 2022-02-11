@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-  border: 1px solid hotpink;
-  height: 500px;
+  height: 100vh;
+  width: 90%;
+  margin: auto auto;
 `;
 export const AboutContent = styled.div``;
 
 export const AboutText = styled.p`
-  border: 1px solid green;
   margin: auto auto;
+  text-align: center;
   width: 90%;
 `;

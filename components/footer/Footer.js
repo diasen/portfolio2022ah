@@ -1,29 +1,44 @@
 import React from 'react';
+import {
+  FooterSection,
+  FooterLogo,
+  CopyrightContainer,
+  SocialContainer,
+  SocialBlock,
+} from './style';
+import Image from 'next/image';
 
 function Footer() {
   return (
-    <div id='footer'>
-      <div class='footer__container'>
-        <a href='/index.html'>
-          <img class='logo__footer' src='/img/logo3.svg' alt='' />
-        </a>
+    <FooterSection>
+      <FooterLogo>
+        <Image
+          alt='logo'
+          src='/images/logo3.svg'
+          height={50}
+          width={50}
+        ></Image>
+      </FooterLogo>
+      <CopyrightContainer>
         <p>
-          Copyright © 2021 Alexander Hansen • Web Designer & Developer based in
-          Sarpsborg
+          Copyright © 2021 Alexander Hansen • Oslo based Web Designer &
+          Developer
         </p>
-        <div class='soMe'>
-          <a href='https://github.com/diasen'>
-            <i class='fab fa-github-square'></i>
+      </CopyrightContainer>
+      <SocialContainer>
+        <SocialBlock>
+          <a href='https://github.com/diasen'></a>
+        </SocialBlock>
+        <SocialBlock>
+          <a href='mailto:alexanderdias.hansen@gmail.com'>
+            <FontAwesomeIcon icon='fa-solid fa-envelope' />
           </a>
-          <a href='/contact.html'>
-            <i class='far fa-envelope'></i>
-          </a>
-          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
-            <i class='fab fa-linkedin'></i>
-          </a>
-        </div>
-      </div>
-    </div>
+        </SocialBlock>
+        <SocialBlock>
+          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'></a>
+        </SocialBlock>
+      </SocialContainer>
+    </FooterSection>
   );
 }
 

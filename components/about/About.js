@@ -1,6 +1,5 @@
 import React from 'react';
 import { AboutContainer, AboutContent, AboutText } from './style';
-import Image from 'next/image';
 
 function About() {
   return (
@@ -18,12 +17,6 @@ function About() {
           and customer relations. I really enjoy problem solving and finding the
           best solution possible for the end users.
         </AboutText>
-        <Image
-          alt='logo'
-          src='/images/profilepic.JPG'
-          height={220}
-          width={200}
-        ></Image>
       </AboutContent>
     </AboutContainer>
   );
