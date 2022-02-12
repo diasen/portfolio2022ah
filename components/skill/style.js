@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const SkillSection = styled.div`
   border: 1px solid green;
-  height: 500px;
+  min-height: 600px;
 
   .skillHeading {
     display: flex;

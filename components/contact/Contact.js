@@ -4,12 +4,16 @@ import { ContactContainer, ContactHeader, ContactText } from './style';
 function Contact() {
   return (
     <ContactContainer>
-      <ContactHeader>Contact</ContactHeader>
-      <ContactText>
-        I’m currently looking for a internship, traineeship, practicum or
-        similar to help out, grow and learn as a Developer. Please dont hesitate
-        to contact me.
-      </ContactText>
+      <div className='contactHeader'>
+        <h3>Contact</h3>
+      </div>
+      <div className='contactText'>
+        <p>
+          I’m currently looking for a internship, traineeship, practicum or
+          similar to help out, grow and learn as a Developer. Please dont
+          hesitate to contact me.
+        </p>
+      </div>
     </ContactContainer>
   );
 }
