@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
-export const SkillSection = styled.div`
-  background: #3c3e50;
-`;
+export const SkillSection = styled.div``;
 
 export const SkillContainer = styled.div`
   display: flex;

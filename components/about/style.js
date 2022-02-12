@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-  height: 100vh;
-  width: 90%;
   margin: auto auto;
-`;
-export const AboutContent = styled.div``;
+  height: 400px;
+  border: 1px solid yellow;
 
-export const AboutText = styled.p`
-  margin: auto auto;
-  text-align: center;
-  width: 90%;
+  .aboutContent {
+  }
+
+  .aboutText {
+    margin: auto auto;
+    text-align: center;
+    width: 90%;
+  }
 `;

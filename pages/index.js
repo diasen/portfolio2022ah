@@ -27,8 +27,8 @@ export default function Home() {
           <Projects />
           <Philosophy />
           <Skill />
-          <About id='about' />
-          <Contact id='contact' />
+          <About />
+          <Contact />
           <Footer />
         </Main>
       </Body>

@@ -5,6 +5,7 @@ import {
   CopyrightContainer,
   SocialContainer,
   SocialBlock,
+  SocialIcons,
 } from './style';
 import Image from 'next/image';
 
@@ -27,15 +28,19 @@ function Footer() {
       </CopyrightContainer>
       <SocialContainer>
         <SocialBlock>
-          <a href='https://github.com/diasen'></a>
-        </SocialBlock>
-        <SocialBlock>
-          <a href='mailto:alexanderdias.hansen@gmail.com'>
-            <FontAwesomeIcon icon='fa-solid fa-envelope' />
+          <a href='https://github.com/diasen'>
+            <SocialIcons class='fa-brands fa-github-square'></SocialIcons>
           </a>
         </SocialBlock>
         <SocialBlock>
-          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'></a>
+          <a href='mailto:alexanderdias.hansen@gmail.com'>
+            <SocialIcons class='fa-solid fa-envelope'></SocialIcons>
+          </a>
+        </SocialBlock>
+        <SocialBlock>
+          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
+            <SocialIcons class='fa-brands fa-linkedin'></SocialIcons>
+          </a>
         </SocialBlock>
       </SocialContainer>
     </FooterSection>
