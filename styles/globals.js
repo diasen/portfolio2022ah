@@ -174,6 +174,7 @@ const GlobalStyle = createGlobalStyle`
 
   p{
     color: var(--color-white);
+    font-family: var(--font-body)
   }
   
   a {

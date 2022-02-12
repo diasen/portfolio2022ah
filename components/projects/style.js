@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 export const ProjectsSection = styled.div`
   border: 1px solid yellow;
-  height: 100%;
+
+  .projectsHeading {
+    width: 90%;
+    margin: auto auto;
+  }
 
   .projectBlock {
     display: flex;
@@ -14,7 +18,6 @@ export const ProjectsSection = styled.div`
   .projectsContainer {
     display: flex;
     flex-wrap: wrap;
-    height: 100%;
   }
 
   .card {

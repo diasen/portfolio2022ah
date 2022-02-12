@@ -42,22 +42,22 @@ function Projects() {
   ];
   return (
     <ProjectsSection>
-      <h2>Projects</h2>
+      <div className='projectsHeading'>
+        <h2>Projects</h2>
+      </div>
       <div className='projectsContainer'>
         <div className='projectBlock'>
           {projectsList.map(({ link, title, description, image }) => (
-            <div className='projectDetails' key={title}>
-              <div className='card'>
-                <img src={image} />
-                <div className='text'>
-                  <h2 className='hover-text'>{title}</h2>
-                  <p className='hover-text'>{description}</p>
-                  <p className='hover-text'>
-                    <a href={link}>
-                      <span>Click here</span> to go to site
-                    </a>
-                  </p>
-                </div>
+            <div className='card ' key={title}>
+              <img src={image} />
+              <div className='text'>
+                <h2 className='hover-text'>{title}</h2>
+                <p className='hover-text'>{description}</p>
+                <p className='hover-text'>
+                  <a href={link}>
+                    <span>Click here</span> to go to site
+                  </a>
+                </p>
               </div>
             </div>
           ))}

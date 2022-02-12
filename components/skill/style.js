@@ -1,34 +1,63 @@
 import styled from 'styled-components';
 
-export const SkillSection = styled.div``;
+export const SkillSection = styled.div`
+  border: 1px solid green;
+  height: 500px;
 
-export const SkillContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-`;
-export const SkillDevelopment = styled.div`
-display: flex
-flex-direction: column;
-`;
-export const SkillDesign = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-`;
+  .skillHeading {
+    display: flex;
+    width: 90%;
+    margin: auto auto;
+  }
 
-export const SkillBlock = styled.div`
-  display: flex;
-  margin-bottom: 20px;
-`;
+  .skillContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
-export const SkillHeading = styled.div`
-  display: flex;
-  width: 90%;
-  margin: auto auto;
-`;
+  .skillDevelopment {
+    display: flex
+    flex-direction: column;
+  }
 
-export const SkillBlockText = styled.h4`
-  margin-left: 10px;
+  h3 {
+    font-size: 5.063rem;
+    margin: 20px 0;
+  }
+
+  h4 {
+    font-size: 2.25rem;
+  }
+
+  .skillSubheading {
+    
+  }
+
+  .skillBlockText {
+    font-size: 1rem;
+    text-align:center;
+  }
+
+  .skillDesign {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .skillBlock {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .skillCard {
+    margin: 10px 10px
+  }
+
+  .skillImg {
+    height: 100px;
+    width: 100px;
+  }
 `;
