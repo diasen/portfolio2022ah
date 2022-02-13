@@ -7,6 +7,7 @@ export const FooterSection = styled.div`
 
   .footerLogo {
     text-align: center;
+    margin-top: 30px;
   }
 
   .copyrightContainer {
@@ -22,5 +23,13 @@ export const FooterSection = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .contactCard {
+    margin: 10px;
+  }
+
+  .react-icons {
+    font-size: 40px;
   }
 `;

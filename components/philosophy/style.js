@@ -10,8 +10,8 @@ export const PhilosophySection = styled.div`
     margin: 0 auto;
   }
 
-  h3 {
-    font-size: 5.063rem;
+  h4 {
+    font-size: 3.375rem;
     margin: 20px 0;
   }
 
@@ -25,11 +25,12 @@ export const PhilosophySection = styled.div`
     margin: 20px auto;
     text-align: center;
     width: 90%;
+    font-size: 1.125rem;
   }
 
   span {
     color: var(--color-tertiary);
-    font-size: 1.325rem;
+    font-size: 1.375rem;
     font-weight: bold;
   }
 `;

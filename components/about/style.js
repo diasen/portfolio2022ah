@@ -3,7 +3,6 @@ import styled from 'styled-components';
 export const AboutContainer = styled.div`
   margin: auto auto;
   height: 400px;
-  width: 100%;
 
   .aboutContent {
     margin-top: 50px;
@@ -14,8 +13,8 @@ export const AboutContainer = styled.div`
     margin: 0 auto;
   }
 
-  h3 {
-    font-size: 5.063rem;
+  h4 {
+    font-size: 3.375rem;
     margin: 20px 0;
   }
 
@@ -23,5 +22,6 @@ export const AboutContainer = styled.div`
     margin: 20px auto;
     text-align: center;
     width: 90%;
+    font-size: 1.125rem;
   }
 `;

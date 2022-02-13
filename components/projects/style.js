@@ -1,13 +1,16 @@
 import styled from 'styled-components';
 
 export const ProjectsSection = styled.div`
+  min-height: 600px;
+  margin-bottom: 100px;
+
   .projectsHeading {
     width: 90%;
     margin: auto auto;
   }
 
-  h3 {
-    font-size: 5.063rem;
+  h4 {
+    font-size: 3.375rem;
     margin: 20px 0;
   }
 

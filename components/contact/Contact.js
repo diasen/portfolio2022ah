@@ -1,33 +1,15 @@
 import React from 'react';
-import { ContactContainer, ContactHeader, ContactText } from './style';
+import { ContactContainer } from './style';
+import { FaGithubSquare, FaLocationArrow, FaLinkedin } from 'react-icons/fa';
+import { BsMailbox } from 'react-icons/bs';
+import { MdLocationOn } from 'react-icons/md';
+import { IconContext } from 'react-icons';
 
 function Contact() {
-  const contactList = [
-    {
-      title: 'Github',
-      image: '/images/github.svg',
-      link: 'https://github.com/diasen',
-    },
-    {
-      title: 'LinkedIn',
-      image: '/images/linkedin.svg',
-      link: 'https://www.linkedin.com/in/alexander-hansen-ab83ab8a/',
-    },
-    {
-      title: 'Sarpsborg, Norway',
-      image: '/images/location.svg',
-      link: 'https://www.google.no/maps/place/Sarpsborg/@59.2869724,11.0542963,13z/data=!4m5!3m4!1s0x46440684290c5355:0xd56a373f7b084e89!8m2!3d59.2840729!4d11.1094028',
-    },
-    {
-      title: 'Alexanderdias.hansen@gmail.com',
-      image: '/images/envelope.svg',
-      link: 'mailto:Alexanderdias.hansen@gmail.com',
-    },
-  ];
   return (
-    <ContactContainer>
+    <ContactContainer id='contact'>
       <div className='contactHeader'>
-        <h3>Contact</h3>
+        <h4>Contact</h4>
       </div>
       <div className='contactText'>
         <p>
@@ -40,14 +22,34 @@ function Contact() {
         </p>
       </div>
       <div className='contactBlock'>
-        {contactList.map(({ image, title, link }) => (
-          <div key={title} className='contactCard'>
-            <img src={image} className='contactImg' />
-            <p className='skillBlockText'>
-              <a href={link}>{title} </a>
-            </p>
-          </div>
-        ))}
+        <div className='contactCard'>
+          <IconContext.Provider value={{ className: 'react-icons' }}>
+            <FaGithubSquare />
+          </IconContext.Provider>
+          <a href='https://github.com/diasen'>Github</a>
+        </div>
+        <div className='contactCard'>
+          <IconContext.Provider value={{ className: 'react-icons' }}>
+            <FaLinkedin />
+          </IconContext.Provider>
+          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
+            LinkedIn
+          </a>
+        </div>
+        <div className='contactCard'>
+          <IconContext.Provider value={{ className: 'react-icons' }}>
+            <MdLocationOn />
+          </IconContext.Provider>
+          <a href='https://www.google.no/maps/place/Sarpsborg/@59.2870162,11.0542963,13z/data=!3m1!4b1!4m5!3m4!1s0x46440684290c5355:0xd56a373f7b084e89!8m2!3d59.2840729!4d11.1094028'>
+            Sarpsborg,Norway
+          </a>
+        </div>
+        <div className='contactCard'>
+          <IconContext.Provider value={{ className: 'react-icons' }}>
+            <BsMailbox />
+          </IconContext.Provider>
+          <a href='https://github.com/diasen'>alexanderdias.hansen@gmail.com</a>
+        </div>
       </div>
     </ContactContainer>
   );

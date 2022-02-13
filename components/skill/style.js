@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const SkillSection = styled.div`
-  min-height: 600px;
+  min-height: 400px;
+  margin-bottom: 100px;
 
   .skillHeading {
     display: flex;
@@ -22,17 +23,13 @@ export const SkillSection = styled.div`
     flex-direction: column;
   }
 
-  h3 {
-    font-size: 5.063rem;
+  h4 {
+    font-size: 3.375rem;
     margin: 20px 0;
   }
 
-  h4 {
-    font-size: 2.25rem;
-  }
-
-  .skillSubheading {
-    
+  h6 {
+    font-size: 1.5rem;
   }
 
   .skillBlockText {

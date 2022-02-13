@@ -5,7 +5,7 @@ function Philosophy() {
   return (
     <PhilosophySection>
       <div className='philosophyHeader'>
-        <h3>Philosophy</h3>
+        <h4>Philosophy</h4>
       </div>
       <div className='philosophyContent'>
         <p className='philosophyText'>

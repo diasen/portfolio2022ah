@@ -43,12 +43,12 @@ function Skill() {
   return (
     <SkillSection>
       <div className='skillHeading'>
-        <h3>Skills</h3>
+        <h4>Skills</h4>
       </div>
       <div className='skillContainer'>
         <div className='skillDesign'>
           <div className='skillSubheading'>
-            <h4>Development</h4>
+            <h6>Development</h6>
           </div>
           <div className='skillBlock'>
             {skillList.map(({ image, title }) => (
@@ -61,7 +61,7 @@ function Skill() {
         </div>
         <div className='skillDevelopment'>
           <div className='skillSubheading'>
-            <h4>Design</h4>
+            <h6>Design</h6>
           </div>
           <div className='skillBlock'>
             {designList.map(({ image, title }) => (

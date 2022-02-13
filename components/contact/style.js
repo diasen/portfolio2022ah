@@ -8,15 +8,16 @@ export const ContactContainer = styled.div`
     margin: 0 auto;
   }
 
-  h3 {
-    font-size: 5.063rem;
+  h4 {
+    font-size: 3.375rem;
     margin: 20px 0;
   }
 
   .contactText {
     margin: 50px auto;
     text-align: center;
-    width: 80%;
+    width: 90%;
+    font-size: 1.125rem;
   }
 
   p {
@@ -27,23 +28,26 @@ export const ContactContainer = styled.div`
     color: var(--color-tertiary);
   }
 
-  .emailTag {
-    text-decoration: none;
-  }
-
   .contactBlock {
     display: flex;
-    width: 100%;
-    justify-content: center;
+    width: 90%;
+    margin: auto auto;
+    justify-content: space-between;
     flex-wrap: wrap;
   }
 
   .contactCard {
     display: flex;
+    flex-direction: column;
+
+    a {
+      text-decoration: none;
+      font-family: var(--font-body);
+    }
   }
 
-  .contactImg {
-    height: 50px;
+  .react-icons {
+    font-size: 50px;
     color: white;
   }
 `;

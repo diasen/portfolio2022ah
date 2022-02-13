@@ -25,6 +25,8 @@ export const NavItem = styled.div`
   a {
     color: var(--color-white);
     text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
   }
 `;
 

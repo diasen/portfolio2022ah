@@ -1,22 +1,10 @@
 import React from 'react';
 import { FooterSection } from './style';
 import Image from 'next/image';
+import { FaGithubSquare, FaRegEnvelope, FaLinkedin } from 'react-icons/fa';
+import { IconContext } from 'react-icons';
 
 function Footer() {
-  const socialList = [
-    {
-      image: '/images/github.svg',
-      link: 'https://github.com/diasen',
-    },
-    {
-      image: '/images/envelope.svg',
-      link: 'mailto:Alexanderdias.hansen@gmail.com',
-    },
-    {
-      image: '/images/linkedin.svg',
-      link: 'https://www.linkedin.com/in/alexander-hansen-ab83ab8a/',
-    },
-  ];
   return (
     <FooterSection>
       <div className='footerLogo'>
@@ -34,14 +22,33 @@ function Footer() {
       </div>
       <div className='socialContainer'>
         <div className='socialBlock'>
-          {socialList.map(({ image, title, link }) => (
-            <div key={title} className='contactCard'>
-              <img src={image} className='socialImg' />
-              <p className='skillBlockText'>
-                <a href={link}>{title} </a>
-              </p>
-            </div>
-          ))}
+          <div className='contactCard'>
+            <p className='skillBlockText'>
+              <a href='https://github.com/diasen'>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaGithubSquare />
+                </IconContext.Provider>
+              </a>
+            </p>
+          </div>
+          <div className='contactCard'>
+            <p className='skillBlockText'>
+              <a href='mailto:Alexanderdias.hansen@gmail.com'>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaRegEnvelope />
+                </IconContext.Provider>
+              </a>
+            </p>
+          </div>
+          <div className='contactCard'>
+            <p className='skillBlockText'>
+              <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
+                <IconContext.Provider value={{ className: 'react-icons' }}>
+                  <FaLinkedin />
+                </IconContext.Provider>
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </FooterSection>

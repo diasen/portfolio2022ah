@@ -3,9 +3,9 @@ import { AboutContainer, AboutContent, AboutText } from './style';
 
 function About() {
   return (
-    <AboutContainer>
+    <AboutContainer id='about'>
       <div className='aboutHeading'>
-        <h3>About me</h3>
+        <h4>About me</h4>
       </div>
       <div className='aboutContent'>
         <p className='aboutText'>
