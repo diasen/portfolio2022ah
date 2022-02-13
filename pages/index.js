@@ -1,15 +1,14 @@
-import styles from '../styles/Home.module.css';
 import Head from 'next/head';
 import Body from '../components/body/Body';
 import Main from '../components/main/Main';
 import Header from '../components/header/Header';
-import HeroBanner from '../components/herobanner/Herobanner';
 import Projects from '../components/projects/Projects';
 import Philosophy from '../components/philosophy/Philosophy';
 import Skill from '../components/skill/Skill';
 import About from '../components/about/About';
 import Contact from '../components/contact/Contact';
 import Footer from '../components/footer/Footer';
+import Hero from '../components/hero/Hero';
 
 export default function Home() {
   return (
@@ -23,7 +22,7 @@ export default function Home() {
       <Body>
         <Main>
           <Header />
-          <HeroBanner />
+          <Hero />
           <Projects />
           <Philosophy />
           <Skill />

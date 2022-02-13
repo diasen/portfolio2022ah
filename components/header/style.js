@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 67px 52px 0 0;
-  border: 1px solid hotpink;
 `;
 
 export const Nav = styled.nav`

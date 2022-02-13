@@ -4,7 +4,6 @@ export const PhilosophySection = styled.div`
   height: 500px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
 
   .philosophyHeader {
     width: 90%;
@@ -17,11 +16,20 @@ export const PhilosophySection = styled.div`
   }
 
   .philosophyContent {
+    justify-content: center;
+    align-item: center;
+    margin-top: 50px;
   }
 
   .philosophyText {
-    margin: auto auto;
+    margin: 20px auto;
     text-align: center;
     width: 90%;
+  }
+
+  span {
+    color: var(--color-tertiary);
+    font-size: 1.325rem;
+    font-weight: bold;
   }
 `;

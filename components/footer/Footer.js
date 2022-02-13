@@ -1,48 +1,49 @@
 import React from 'react';
-import {
-  FooterSection,
-  FooterLogo,
-  CopyrightContainer,
-  SocialContainer,
-  SocialBlock,
-  SocialIcons,
-} from './style';
+import { FooterSection } from './style';
 import Image from 'next/image';
 
 function Footer() {
+  const socialList = [
+    {
+      image: '/images/github.svg',
+      link: 'https://github.com/diasen',
+    },
+    {
+      image: '/images/envelope.svg',
+      link: 'mailto:Alexanderdias.hansen@gmail.com',
+    },
+    {
+      image: '/images/linkedin.svg',
+      link: 'https://www.linkedin.com/in/alexander-hansen-ab83ab8a/',
+    },
+  ];
   return (
     <FooterSection>
-      <FooterLogo>
+      <div className='footerLogo'>
         <Image
           alt='logo'
           src='/images/logo3.svg'
           height={50}
           width={50}
         ></Image>
-      </FooterLogo>
-      <CopyrightContainer>
+      </div>
+      <div className='copyrightContainer'>
         <p>
-          Copyright © 2021 Alexander Hansen • Oslo based Web Designer &
-          Developer
+          Copyright © 2021 Alexander Hansen • Sarpsborg based Frontend Developer
         </p>
-      </CopyrightContainer>
-      <SocialContainer>
-        <SocialBlock>
-          <a href='https://github.com/diasen'>
-            <SocialIcons class='fa-brands fa-github-square'></SocialIcons>
-          </a>
-        </SocialBlock>
-        <SocialBlock>
-          <a href='mailto:alexanderdias.hansen@gmail.com'>
-            <SocialIcons class='fa-solid fa-envelope'></SocialIcons>
-          </a>
-        </SocialBlock>
-        <SocialBlock>
-          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
-            <SocialIcons class='fa-brands fa-linkedin'></SocialIcons>
-          </a>
-        </SocialBlock>
-      </SocialContainer>
+      </div>
+      <div className='socialContainer'>
+        <div className='socialBlock'>
+          {socialList.map(({ image, title, link }) => (
+            <div key={title} className='contactCard'>
+              <img src={image} className='socialImg' />
+              <p className='skillBlockText'>
+                <a href={link}>{title} </a>
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
     </FooterSection>
   );
 }

@@ -2,14 +2,14 @@ import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
   margin: auto auto;
-  height: 500px;
+  height: 400px;
   width: 100%;
-  border: 1px solid yellow;
 
   .aboutContent {
+    margin-top: 50px;
   }
 
-  .AboutHeading {
+  .aboutHeading {
     width: 90%;
     margin: 0 auto;
   }
@@ -20,7 +20,7 @@ export const AboutContainer = styled.div`
   }
 
   .aboutText {
-    margin: auto auto;
+    margin: 20px auto;
     text-align: center;
     width: 90%;
   }

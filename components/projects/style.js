@@ -1,11 +1,14 @@
 import styled from 'styled-components';
 
 export const ProjectsSection = styled.div`
-  border: 1px solid yellow;
-
   .projectsHeading {
     width: 90%;
     margin: auto auto;
+  }
+
+  h3 {
+    font-size: 5.063rem;
+    margin: 20px 0;
   }
 
   .projectBlock {

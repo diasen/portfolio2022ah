@@ -43,7 +43,7 @@ function Projects() {
   return (
     <ProjectsSection>
       <div className='projectsHeading'>
-        <h2>Projects</h2>
+        <h3>Projects</h3>
       </div>
       <div className='projectsContainer'>
         <div className='projectBlock'>

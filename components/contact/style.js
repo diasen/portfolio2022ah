@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const ContactContainer = styled.div`
-  border: 1px solid yellow;
-  height: 400px;
+  min-height: 400px;
 
   .contactHeader {
     width: 90%;
@@ -15,8 +14,36 @@ export const ContactContainer = styled.div`
   }
 
   .contactText {
-    margin: auto auto;
+    margin: 50px auto;
     text-align: center;
     width: 80%;
+  }
+
+  p {
+    margin: 20px;
+  }
+
+  span {
+    color: var(--color-tertiary);
+  }
+
+  .emailTag {
+    text-decoration: none;
+  }
+
+  .contactBlock {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contactCard {
+    display: flex;
+  }
+
+  .contactImg {
+    height: 50px;
+    color: white;
   }
 `;
