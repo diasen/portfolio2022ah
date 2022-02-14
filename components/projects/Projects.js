@@ -49,7 +49,7 @@ function Projects() {
         <div className='projectBlock'>
           {projectsList.map(({ link, title, description, image }) => (
             <div className='card ' key={title}>
-              <img src={image} />
+              <img alt='project image' src={image} />
               <div className='text'>
                 <h2 className='hover-text'>{title}</h2>
                 <p className='hover-text'>{description}</p>
