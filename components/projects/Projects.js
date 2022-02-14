@@ -1,5 +1,5 @@
 import React from 'react';
-import { ProjectsSection, ProjectsContainer, ProjectDetails } from './style';
+import { ProjectsSection } from './style';
 
 function Projects() {
   const projectsList = [
