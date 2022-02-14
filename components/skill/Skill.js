@@ -4,38 +4,38 @@ import { SkillSection } from './style';
 function Skill() {
   const skillList = [
     {
-      title: 'HTML5',
+      title: `HTML5`,
       image: '/images/hmtl.png',
     },
     {
-      title: 'CSS3',
+      title: `CSS3`,
       image: '/images/css.png',
     },
     {
-      title: 'Javascript',
+      title: `Javascript`,
       image: '/images/javascript.svg',
     },
     {
-      title: 'Wordpress',
+      title: `Wordpress`,
       image: '/images/wordpress.png',
     },
     {
-      title: 'Boostrap',
+      title: `Boostrap`,
       image: '/images/bootstrap.svg',
     },
     {
-      title: 'React',
+      title: `React`,
       image: '/images/React.svg',
     },
   ];
 
   const designList = [
     {
-      title: 'Adobe XD',
+      title: `Adobe XD`,
       image: '/images/adobexd.svg',
     },
     {
-      title: 'Figma',
+      title: `Figma`,
       image: '/images/figma.svg',
     },
   ];
