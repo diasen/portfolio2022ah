@@ -5,10 +5,6 @@ import Image from 'next/image';
 function Header() {
   const navList = [
     {
-      link: '#projects',
-      title: 'Projects',
-    },
-    {
       link: '#about',
       title: 'About',
     },
@@ -21,13 +17,15 @@ function Header() {
   return (
     <Wrapper>
       <Logo>
-        {' '}
-        <Image
-          alt='logo'
-          src='/images/logo3.svg'
-          height={120}
-          width={200}
-        ></Image>
+        <a href='#index'>
+          <Image
+            alt='logo'
+            src='/images/logo3.svg'
+            height={120}
+            width={200}
+            id='index'
+          ></Image>
+        </a>
       </Logo>
       <Nav>
         {navList.map(({ link, title }) => (

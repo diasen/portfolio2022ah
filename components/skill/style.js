@@ -46,6 +46,7 @@ export const SkillSection = styled.div`
   .skillBlock {
     display: flex;
     margin-bottom: 20px;
+    flex-wrap: wrap;
   }
 
   .skillCard {

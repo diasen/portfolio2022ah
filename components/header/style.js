@@ -13,8 +13,8 @@ export const Wrapper = styled.div`
 export const Nav = styled.nav`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-around;
+  width: 60%;
   max-width: 563px;
 `;
 
