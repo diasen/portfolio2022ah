@@ -55,7 +55,7 @@ function Projects() {
                 <p className='hover-text'>{description}</p>
                 <p className='hover-text'>
                   <a href={link}>
-                    <span>Click here</span> to go to site
+                    <span>Click here</span> to go to the site
                   </a>
                 </p>
               </div>
