@@ -53,7 +53,7 @@ function Skill() {
           <div className='skillBlock'>
             {skillList.map(({ image, title }) => (
               <div key={title} className='skillCard'>
-                <img src={image} className='skillImg' />
+                <img alt='skill Logo' src={image} className='skillImg' />
                 <p className='skillBlockText'>{title}</p>
               </div>
             ))}

@@ -13,7 +13,7 @@ function Projects() {
     {
       title: 'The Gourmet Journal - Food & wine blog',
       description:
-        ' This is my second semester project. Our criteria was to make an blog page where we could choose our own theme. I have a passion for food and wine, so the choise were simple.',
+        'This is my second semester project. Our criteria was to make an blog page where we could choose our own theme. I have a passion for food and wine, so the choise were simple.',
       link: 'https://eloquent-ptolemy-c81500.netlify.app',
       image: '/images/gourmetjournal.png',
     },
@@ -48,7 +48,7 @@ function Projects() {
       <div className='projectsContainer'>
         <div className='projectBlock'>
           {projectsList.map(({ link, title, description, image }) => (
-            <div className='card ' key={title}>
+            <div className='card' key={title}>
               <img alt='project image' src={image} />
               <div className='text'>
                 <h2 className='hover-text'>{title}</h2>
