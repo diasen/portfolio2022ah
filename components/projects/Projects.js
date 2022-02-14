@@ -40,31 +40,7 @@ function Projects() {
       image: '/images/donationly.jpg',
     },
   ];
-  return (
-    <ProjectsSection>
-      <div className='projectsHeading'>
-        <h4>Projects</h4>
-      </div>
-      <div className='projectsContainer'>
-        <div className='projectBlock'>
-          {projectsList.map(({ link, title, description, image }) => (
-            <div className='card' key={title}>
-              <img alt='project image' src={image} />
-              <div className='text'>
-                <h2 className='hover-text'>{title}</h2>
-                <p className='hover-text'>{description}</p>
-                <p className='hover-text'>
-                  <a href={link}>
-                    <span>Click here</span> to go to site
-                  </a>
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </ProjectsSection>
-  );
+  return <ProjectsSection></ProjectsSection>;
 }
 
 export default Projects;
