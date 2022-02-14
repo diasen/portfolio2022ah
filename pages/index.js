@@ -23,7 +23,6 @@ export default function Home() {
         <Main>
           <Header />
           <Hero />
-          <Projects />
           <Philosophy />
           <Skill />
           <About />
