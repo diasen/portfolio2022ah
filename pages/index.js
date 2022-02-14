@@ -2,7 +2,6 @@ import Head from 'next/head';
 import Body from '../components/body/Body';
 import Main from '../components/main/Main';
 import Header from '../components/header/Header';
-import Projects from '../components/projects/Projects';
 import Philosophy from '../components/philosophy/Philosophy';
 import Skill from '../components/skill/Skill';
 import About from '../components/about/About';
