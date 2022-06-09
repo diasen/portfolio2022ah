@@ -6,7 +6,7 @@ export const ProjectsSection = styled.div`
 
   .projectsHeading {
     width: 90%;
-    margin: auto auto;
+    margin: 50px auto;
   }
 
   h4 {
@@ -28,7 +28,7 @@ export const ProjectsSection = styled.div`
 
   .card {
     width: 450px;
-    height: 280px;
+    height: 310px;
     margin: 20px;
     display: inline-block;
     background-size: cover;
@@ -52,7 +52,7 @@ export const ProjectsSection = styled.div`
 
   .card .text {
     position: absolute;
-    padding: 40px;
+    padding: 20px;
     height: calc(100% - 60px);
   }
 
@@ -121,5 +121,10 @@ export const ProjectsSection = styled.div`
 
   .gitCode-link {
     font-weight: lighter;
+  }
+
+  .githubRepo {
+    font-size: 0.9rem !important;
+    font-weight: light;
   }
 `;
