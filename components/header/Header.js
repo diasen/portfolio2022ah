@@ -5,6 +5,18 @@ import Image from 'next/image';
 function Header() {
   const navList = [
     {
+      link: '#projects',
+      title: 'Projects',
+    },
+    {
+      link: '#philosophy',
+      title: 'Philosophy',
+    },
+    {
+      link: '#skills',
+      title: 'Skills',
+    },
+    {
       link: '#about',
       title: 'About',
     },

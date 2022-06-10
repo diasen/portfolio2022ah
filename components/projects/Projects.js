@@ -64,7 +64,7 @@ function Projects() {
   ];
 
   return (
-    <ProjectsSection>
+    <ProjectsSection id='projects'>
       <div className='projectsHeading'>
         <h4>Projects</h4>
       </div>

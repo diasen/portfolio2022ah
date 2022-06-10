@@ -3,7 +3,7 @@ import { PhilosophySection } from './style';
 
 function Philosophy() {
   return (
-    <PhilosophySection>
+    <PhilosophySection id='philosophy'>
       <div className='philosophyHeader'>
         <h4>Philosophy</h4>
       </div>

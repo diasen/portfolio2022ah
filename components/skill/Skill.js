@@ -45,7 +45,7 @@ function Skill() {
   ];
 
   return (
-    <SkillSection>
+    <SkillSection id='skills'>
       <div className='skillHeading'>
         <h4>Skills</h4>
       </div>
