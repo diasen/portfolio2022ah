@@ -30,7 +30,7 @@ export const PhilosophySection = styled.div`
 
   span {
     color: var(--color-tertiary);
-    font-size: 1.375rem;
-    font-weight: bold;
+    font-size: 1.475rem;
+    font-weight: normal;
   }
 `;

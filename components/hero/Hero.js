@@ -13,7 +13,8 @@ function Hero() {
       </div>
       <h1>Hi, I&apos;m Alexander.</h1>
       <p>
-        I&apos;m currently completing my Front-end development degree at Noroff.
+        I&apos;m currently completing my Front-end development degree at Noroff
+        school of technology and digital media.
       </p>
     </HeroSection>
   );

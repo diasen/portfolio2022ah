@@ -24,6 +24,10 @@ export const ContactContainer = styled.div`
     margin: 20px;
   }
 
+  .emailTag {
+    text-decoration: none;
+  }
+
   span {
     color: var(--color-tertiary);
   }

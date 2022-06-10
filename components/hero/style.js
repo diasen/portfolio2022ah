@@ -26,7 +26,7 @@ export const HeroSection = styled.div`
 
   p {
     text-align: center;
-    margin: 0;
+    margin: 10;
     font-weight: lighter;
   }
 `;
