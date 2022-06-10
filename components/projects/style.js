@@ -29,7 +29,7 @@ export const ProjectsSection = styled.div`
   .card {
     width: 450px;
     height: 310px;
-    margin: 20px;
+    margin: 30px;
     display: inline-block;
     background-size: cover;
     position: relative;
@@ -52,7 +52,7 @@ export const ProjectsSection = styled.div`
 
   .card .text {
     position: absolute;
-    padding: 20px;
+    padding: 30px;
     height: calc(100% - 60px);
   }
 

@@ -38,12 +38,17 @@ export const ContactContainer = styled.div`
 
   .contactCard {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
     a {
       text-decoration: none;
       font-family: var(--font-body);
+      justify-content: center;
     }
+  }
+
+  .contactInfo {
+    display: flex;
   }
 
   .react-icons {

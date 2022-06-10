@@ -48,7 +48,11 @@ function Contact() {
           <IconContext.Provider value={{ className: 'react-icons' }}>
             <BsMailbox />
           </IconContext.Provider>
-          <a href='https://github.com/diasen'>alexanderdias.hansen@gmail.com</a>
+          <div className='contactInfo'>
+            <a href='https://github.com/diasen'>
+              alexanderdias.hansen@gmail.com
+            </a>
+          </div>
         </div>
       </div>
     </ContactContainer>

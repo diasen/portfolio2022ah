@@ -27,6 +27,10 @@ function Skill() {
       title: 'React',
       image: '/images/React.svg',
     },
+    {
+      title: 'Next.js',
+      image: '/images/Nextjs-logo.svg',
+    },
   ];
 
   const designList = [
