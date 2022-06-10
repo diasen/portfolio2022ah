@@ -26,23 +26,29 @@ function Contact() {
           <IconContext.Provider value={{ className: 'react-icons' }}>
             <FaGithubSquare />
           </IconContext.Provider>
-          <a href='https://github.com/diasen'>Github</a>
+          <div className='contactInfo'>
+            <a href='https://github.com/diasen'>Github</a>
+          </div>
         </div>
         <div className='contactCard'>
           <IconContext.Provider value={{ className: 'react-icons' }}>
             <FaLinkedin />
           </IconContext.Provider>
-          <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
-            LinkedIn
-          </a>
+          <div className='contactInfo'>
+            <a href='https://www.linkedin.com/in/alexander-hansen-ab83ab8a/'>
+              LinkedIn
+            </a>
+          </div>
         </div>
         <div className='contactCard'>
           <IconContext.Provider value={{ className: 'react-icons' }}>
             <MdLocationOn />
           </IconContext.Provider>
-          <a href='https://www.google.no/maps/place/Sarpsborg/@59.2870162,11.0542963,13z/data=!3m1!4b1!4m5!3m4!1s0x46440684290c5355:0xd56a373f7b084e89!8m2!3d59.2840729!4d11.1094028'>
-            Sarpsborg,Norway
-          </a>
+          <div className='contactInfo'>
+            <a href='https://www.google.no/maps/place/Sarpsborg/@59.2870162,11.0542963,13z/data=!3m1!4b1!4m5!3m4!1s0x46440684290c5355:0xd56a373f7b084e89!8m2!3d59.2840729!4d11.1094028'>
+              Sarpsborg,Norway
+            </a>
+          </div>
         </div>
         <div className='contactCard'>
           <IconContext.Provider value={{ className: 'react-icons' }}>

@@ -57,4 +57,16 @@ export const SkillSection = styled.div`
     height: 100px;
     width: 100px;
   }
+
+  @media (max-width: 768px) {
+    .skillBlock {
+      display: flex;
+     justify-content: center;
+    }
+
+    .skillSubheading {
+      width: 90%;
+      margin: auto auto;
+    }
+  }
 `;

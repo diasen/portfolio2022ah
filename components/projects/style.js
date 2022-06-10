@@ -3,6 +3,17 @@ import styled from 'styled-components';
 export const ProjectsSection = styled.div`
   min-height: 600px;
   margin-bottom: 100px;
+  @media (max-width: 768px) {
+    .card {
+      max-width: 250px;
+      max-height: 180px;
+    }
+
+    .projectsContainer {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
 
   .projectsHeading {
     width: 90%;

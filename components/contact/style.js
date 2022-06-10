@@ -32,7 +32,7 @@ export const ContactContainer = styled.div`
     display: flex;
     width: 90%;
     margin: auto auto;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
   }
 
@@ -43,12 +43,14 @@ export const ContactContainer = styled.div`
     a {
       text-decoration: none;
       font-family: var(--font-body);
-      justify-content: center;
+      margin-left: 10px;
     }
   }
 
   .contactInfo {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .react-icons {
